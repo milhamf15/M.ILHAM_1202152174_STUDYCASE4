@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">M.ILHAM_1202152174_StudyCase4</string>
+
+    <string-array name="namaMhs">
+        <item>Ilham</item>
+        <item>Ilhem</item>
+        <item>Ilhom</item>
+        <item>Ilhum</item>
+        <item>Ujang</item>
+        <item>Asep</item>
+        <item>Wawan</item>
+        <item>Dedi</item>
+        <item>Tommy</item>
+        <item>Riska</item>
+        <item>Mutia</item>
+        <item>Lala</item>
+        <item>Bagas</item>
+        <item>Ardia</item>
+        <item>Reza</item>
+        <item>Arif</item>
+        <item>Riny</item>
+    </string-array>
+</resources>

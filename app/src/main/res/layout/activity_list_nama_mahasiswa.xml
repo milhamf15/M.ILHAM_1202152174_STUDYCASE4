@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ilham.ilham_1202152174_studyCase4.ListNamaMahasiswa">
+
+    <TextView
+        android:id="@+id/listnamamahasiswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:text="List Nama Mahasiswa"
+        android:textSize="30sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mulai AsyncTask"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/listnamamahasiswa"
+        android:layout_centerHorizontal="true"
+        android:onClick="mulai"
+        android:id="@+id/buttonmulai" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonmulai"
+        android:layout_marginTop="27dp" />
+
+</RelativeLayout>

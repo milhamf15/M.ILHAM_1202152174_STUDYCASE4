@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ilham.ilham_1202152174_studyCase4.CariGambar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="Cari Gambar"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/txtImgURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textMultiLine"
+            android:hint="masukkan URL gambar"
+            android:text="https://vignette.wikia.nocookie.net/cardfight/images/c/cb/Yao-ming-meme.jpg"
+            android:padding="8dp"
+            />
+
+        <Button
+            android:id="@+id/btnImgLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@color/colorPrimary"
+            android:text="Load Image"
+            android:textColor="#f5f5f5" />
+
+        <ImageView
+            android:id="@+id/lblImg"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_margin="20dp" />
+    </LinearLayout>
+</ScrollView>
